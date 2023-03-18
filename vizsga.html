@@ -1,64 +1,60 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>feladat</title>
+    <link rel="stylesheet" href="viszga.css">
+</head>
+
 <body>
 
-1. Mi a CSS?
-b)Az interneten fellelhető dokumentumok, különböző erőforrások címe.
-<br><br>
-2. Hogyan formázza át a weboldal kinézetét a következő CSS szabály?body{background-color:black; }
-a) A teljes dokumentum háttérszíne fekete.
-<br><br>
-3. Mire illeszkedik az a CSS szabály, amelynek szelektora: „p.kiemelt{...}”?
-c) Minden olyan < p > elemen belüli elemre, amelynek "class" jellemzője "kiemelt".
-<br>
-4. ​​A(z) ...... stílusleíró nyelv, amely a weboldalak megjelenését írja le. Válassza ki, melyik a mondathelyes kiegészítése!
-a) HTML
-<br><br>
-5. Hogyan formázza át a weboldal kinézetét a következő CSS szabály? p{font-size:18px; }
-c) Minden < p > bekezdés betűmérete 18 pixel.
-<br><br>
-6. Miért fontos a weboldalon beillesztett képekhez helyettesítő szöveg megadása?
-b) Informálja a felhasználót a kép tartalmáról, ha valamilyen ok miatt a kép nem jeleníthető meg,de fontos szerepe van a keresésnél is.​
-<br><br>
-7. Mire illeszkedik az a CSS szabály, amelynek szelektora: „.kiemelt p{...}”?
-c) Minden < p class="kiemelt"> elemre.
-<br><br>
-8. Hogyan hivatkozol a következő kódban, ha a példa szöveget szeretnéd fehér színben megjeleníteni?
-.txt {
-    color: white
-}
-<br><br>
-9. Az alábbi példában szeretném hogy a dobozok a containeren belül egymás mellett legyenek. ​
-Mivel kell kiegészítenem a stílus parancsom?​
-< div class=“container” style="display: flex" >
-<br>
-10. Mi az az Flexbox?
-Kód ami egymás mellet helyezi el a tartalmat.
-<br><br>
-11. Mi az a Grid?
-Egy kód amivel rácsszerkezetet hozhatunk létre.
-<br><br>
-12. Mi az a parancs, amivel a grid értékei között egyszerre lehet ugyan akkora térközt tenni?
-justify-content: space-around
-<br><br>
-13. Mit jelent a következő? “style=“display: flex; justify-content: center; justify-item: space-around;”
-Egymás mellet lesz minden elhelyezve kozéprol ugyan olyan távolságra egymástól.
-<br><br>
-14. Definiáld: reszponzivitás.
-weboldal megjelenítése más eszkozokon (mobil-tablet-tv...)
-<br><br>
-15. ​Miért fontos a reszponzivitás?​
-ugyan olyan szép leygen a weboldal minden eszkozon
-<br><br>
-16. Mi az a mobile-first?
-a weboldal eloszor mobil-ra van készítve
-<br><br>
-17. Hol és hogyan hivatkozunk, akkor ha szeretnénk kialakítani a reszponziv nézetet? Írj egy példát is.
-@media screen and (max-width: 600px)
-<br><br>
-18. Hány töréspont a javallott 2440px és 360px szélesség között?
-2-3
+<div class="header">
+    <label for="search"></label>
+    <input class="src" type="text" placeholder="Mit Keresel?">
+    <button type="Search">Kereses</button>
+    <br><br>
+</div>
+<br><br><br>
+<div class="logo">
+<a href="https://harangvolgyi.hu/" aria-label="Harangvölgyi Institute"></a>
+</div>
+
+<nav>
+<div class="bar">
+    <a href="#">Webshop</a>
+    <a href="#">Kezelések és árak</a>
+    <a href="#">Rólunk</a>
+    <a href="#">Kapcsolat</a>
+    <a href="#">English</a>
+    <a href="#">Belépés</a>
+</div>
+</nav>
+
+<div class="imageOne">
+    <img src="https://harangvolgyi.hu/wp-content/uploads/Home-Slide_03.webp" alt="arpakolás">
+</div>
+
+<div class="porducts1st">
+    <div id="pics">
+        <img id="pictures" src="https://harangvolgyi.hu/wp-content/uploads/HV-Gift-Card-400x609.jpg" height="444.56" width="292">
+          
+    </div>
+    <div id="pics">
+        <img id="pictures"src="https://harangvolgyi.hu/wp-content/uploads/HV-HAIR-CARE-Shampoo-400x609.jpg" height="444.56" width="292">
+            <a href="#">HV Hair CARE Shampoo 200ml</a>
+            <p>9.500 Ft</p><br>
+            <a href="#">Kosárba teszem</a>
+    </div>
+    <div id="pics">
+        <img id="pictures" src="https://harangvolgyi.hu/wp-content/uploads/HV-HYDRO-CARE-Cream-24-400x609.jpg" height="444.56" width="292">
+            <a href="#">HV HYDRO CARE Cream24 • 50ml • hidratáló krém</a>
+            <p>17.730 Ft</p><br>
+            <a href="#">Kosárba teszem</a>
+    </div>
+    <div id="pics">
+        <img id="pictures" src="https://harangvolgyi.hu/wp-content/uploads/HV-Rituale-Protection-400x609.jpg" height="444.56" width="292">
+         <a href="#">HV Rituálé csomag</a>
+         <p>46.700 Ft</p><br>
+         <a href="#">Kosárba teszem</a>
+    </div>
+</div>
 </body>
-</html>
-
-
